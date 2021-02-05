@@ -1,17 +1,3 @@
-console.log('Client Side JS script loaded...');
-
-
-// fetch('http://localhost:3000/weather?address=Tijuana').then((response)=>{
-//     response.json().then((data)=>{
-//         if(data.error){
-//             console.log(data.error)
-//         }else{
-//         console.log(data)
-//     }
-//     })
-// })
-
-
 let weatherForm = document.querySelector('form')
 let search = document.querySelector('input')
 let messageLocation = document.querySelector('#message-location')
