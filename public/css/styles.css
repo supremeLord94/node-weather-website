@@ -1,0 +1,85 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 5em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.overlay {
+    z-index: -1;
+    position: fixed;
+    margin: 0;
+    display: block;
+    width: 100vw;
+    content: "";
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+body {
+    background: url(../img/forestBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav_button {
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+button{
+    border: 1px solid #666;
+    padding: 8px;
+    background: #666;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-container {
+    flex-grow: 1;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.footer {
+    align-self: center;
+    height: 50px;
+    width: 40%;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
