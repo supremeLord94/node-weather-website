@@ -11,6 +11,7 @@ const clearForm = ()=> {
     messageLocation.textContent = "";
     messageTemperature.textContent = "";
     messageCondition.textContent = "";
+    weather_icon.src = "";
 }
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault();

@@ -20,7 +20,6 @@ p {
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
-    border: black 6px solid;
     display: flex;
     width: 50px
 }
