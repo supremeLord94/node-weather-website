@@ -3,6 +3,7 @@ let search = document.querySelector('input')
 let messageLocation = document.querySelector('#message-location')
 let messageTemperature = document.querySelector('#message-temperature')
 let messageCondition = document.querySelector('#message-condition')
+let weather_icon = document.querySelector('#weather_icon')
 
 
 
@@ -24,6 +25,8 @@ weatherForm.addEventListener('submit', (e) => {
                 messageLocation.textContent = data.location
                 messageTemperature.textContent = 'Temperature: ' + data.temperature + 'C'
                 messageCondition.textContent = data.condition[0]
+                weather_icon.src = data.icon
+
             }
         })
     })

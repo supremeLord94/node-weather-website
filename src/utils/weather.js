@@ -14,7 +14,8 @@ const forecast = (altitude, longitute, callback) => {
         } else {
             callback(undefined, {
                 temperature: body.current.temperature,
-                condition: body.current.weather_descriptions
+                condition: body.current.weather_descriptions,
+                icon: body.current.weather_icons
             })
         }
     })
